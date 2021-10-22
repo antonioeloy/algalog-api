@@ -31,9 +31,9 @@ public class SpringfoxSwaggerConfigurations {
 	      "algalog-api", 
 	      "API REST com Spring Boot para um sistema de entrega de mercadorias.", 
 	      "Versão 1.0", 
-	      "https://github.com/antonioeloy/carteira-api/blob/master/README.md", 
+	      "https://github.com/antonioeloy/algalog-api/blob/master/README.md", 
 	      new Contact("Antonio Eloy", "https://github.com/antonioeloy", "antonioeloy14@gmail.com"), 
-	      "MIT License", "https://github.com/antonioeloy/carteira-api/blob/master/LICENSE", Collections.emptyList());
+	      "MIT License", "https://github.com/antonioeloy/algalog-api/blob/master/LICENSE", Collections.emptyList());
 	}
 
 }
