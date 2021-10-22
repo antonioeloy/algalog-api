@@ -84,7 +84,7 @@ http://localhost:8080/swagger-ui.html
 ```
 
 <h1 align="center">
-  <img alt="documentacao" title="documentacao" src="documentacao_api.PNG" />
+  <img alt="documentacao" title="documentacao" src="documentacao-api.PNG" />
 </h1>
 
 <a name="licenca"/></a>
