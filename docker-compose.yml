@@ -1,13 +1,19 @@
-version: '3.6'
+version: '3'
+
 services:
-    mysqldb:
+
+    algalog_database:
         image: mysql:8.0
-        environment:
-            - MYSQL_ROOT_PASSWORD=root
-            - MYSQL_DATABASE=algalog
+        restart: always
         ports:
             - 3306:3306
-    application:
+        env_file:
+            - algalog_database.env
+        
+    algalog_app:
         build: .
+        restart: always
         ports:
             - 8080:8080
+        env_file:
+            - algalog_app.env
